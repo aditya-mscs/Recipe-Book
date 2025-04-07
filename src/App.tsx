@@ -1,6 +1,5 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import recipes from "./data";
 import { Recipe } from "./types";
 import RecipeList from "./components/RecipeList";
 import RecipeDetails from "./components/RecipeDetails";
