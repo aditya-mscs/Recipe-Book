@@ -1,0 +1,44 @@
+.app header {
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.recipe-list,
+.favorites {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.recipe-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+}
+
+.search-input {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 400px;
+}
+
+.favorites-container {
+  text-align: center;
+}
+
+.favorites-heading {
+  font-size: 1.5em;
+  color: #333;
+}

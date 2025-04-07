@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="0" errors="0" time="3.6">
+  <testsuite name="Recipe book" errors="0" failures="0" skipped="0" timestamp="2025-04-07T02:49:50" time="2.375" tests="10">
+    <testcase classname="Recipe book should display all the recipes with / route initially" name="Recipe book should display all the recipes with / route initially" time="0.164">
+    </testcase>
+    <testcase classname="Recipe book should initially display an empty favorites page" name="Recipe book should initially display an empty favorites page" time="0.059">
+    </testcase>
+    <testcase classname="Recipe book should navigate between nav items correctly" name="Recipe book should navigate between nav items correctly" time="0.039">
+    </testcase>
+    <testcase classname="Recipe book should update the recipe list based on search input" name="Recipe book should update the recipe list based on search input" time="0.048">
+    </testcase>
+    <testcase classname="Recipe book should display &apos;No recipes match your search.&apos; when no recipes match the search query" name="Recipe book should display &apos;No recipes match your search.&apos; when no recipes match the search query" time="0.052">
+    </testcase>
+    <testcase classname="Recipe book should add a recipe to favorites and display it on the favorites page" name="Recipe book should add a recipe to favorites and display it on the favorites page" time="0.113">
+    </testcase>
+    <testcase classname="Recipe book should remove the favorite recipe from the favorites page on clicking the button" name="Recipe book should remove the favorite recipe from the favorites page on clicking the button" time="0.111">
+    </testcase>
+    <testcase classname="Recipe book should change button text to &apos;Remove from Favorites&apos; when clicked" name="Recipe book should change button text to &apos;Remove from Favorites&apos; when clicked" time="0.103">
+    </testcase>
+    <testcase classname="Recipe book should navigate to recipe details when &apos;View Details&apos; is clicked" name="Recipe book should navigate to recipe details when &apos;View Details&apos; is clicked" time="0.069">
+    </testcase>
+    <testcase classname="Recipe book should navigate back to the recipes list from the details page" name="Recipe book should navigate back to the recipes list from the details page" time="0.103">
+    </testcase>
+  </testsuite>
+</testsuites>
